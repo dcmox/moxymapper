@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "private": false,
   "description": "Moxy Mapper - Data mapping made easy",
-  "main": "moxy-mapper.js",
+  "main": "moxymapper.js",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -20,13 +20,13 @@
   "scripts": {
     "test": "jest tests/*",
     "build": "npm run build:main",
-    "build:main": "tsc moxy-mapper.ts",
-    "testb": "node moxy-mapper.js",
-    "watch": "tsc -w moxy-mapper.ts"
+    "build:main": "tsc moxymapper.ts",
+    "testb": "node moxymapper.js",
+    "watch": "tsc -w moxymapper.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dcmox/moxy-mapper.git"
+    "url": "git+https://github.com/dcmox/moxymapper.git"
   },
   "keywords": [
     "moxy",
@@ -36,9 +36,9 @@
   "author": "Daniel Moxon (dancmox@comcast.net)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dcmox/moxy-mapper/issues"
+    "url": "https://github.com/dcmox/moxymapper/issues"
   },
-  "homepage": "https://github.com/dcmox/moxy-mapper#readme",
+  "homepage": "https://github.com/dcmox/moxymapper#readme",
   "dependencies": {
     "moxy-address": "^0.5.2",
     "string-dist": "^1.0.0"
